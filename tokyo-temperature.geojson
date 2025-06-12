@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東京",
+        "temperature": 28.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.6917, 35.6895]  // 経度, 緯度
+      }
+    }
+  ]
+}

@@ -1,26 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>Tokyo Temperature Map</title>
-  <script src="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Cesium.js"></script>
-  <link href="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
-  <style>
-    html, body, #cesiumContainer {
-      width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>My Cesium Page</title>
 </head>
 <body>
-  <div id="cesiumContainer"></div>
-  <script>
-    // Cesium Viewerの初期化
-    const viewer = new Cesium.Viewer('cesiumContainer', {
-      terrainProvider: Cesium.createWorldTerrain()
-    });
-
-    // GeoJSONデータを読み込む
-    viewer.dataSources.add(Cesium.GeoJsonDataSource.load('tokyo-temperature.geojson'));
-  </script>
+  <h1>Hello, Cesium!</h1>
+  <p>このページは正常に読み込まれました。</p>
 </body>
 </html>
